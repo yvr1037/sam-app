@@ -2,13 +2,20 @@ require (
 	github.com/aws/aws-lambda-go v1.19.1
 	github.com/aws/aws-sdk-go v1.44.208
 	github.com/aws/aws-sdk-go-v2 v1.17.5
+	github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue v1.10.15
+	github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.4.42
+	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.18.5
 	github.com/awslabs/aws-lambda-go-api-proxy v0.14.0
-	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/gin-gonic/gin v1.9.0
 	github.com/guregu/dynamo v1.18.2
 )
 
 require (
+	github.com/aws/aws-sdk-go-v2/internal/configsources v1.1.29 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.4.23 // indirect
+	github.com/aws/aws-sdk-go-v2/service/dynamodbstreams v1.14.5 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.9.11 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/endpoint-discovery v1.7.23 // indirect
 	github.com/aws/smithy-go v1.13.5 // indirect
 	github.com/bytedance/sonic v1.8.0 // indirect
 	github.com/cenkalti/backoff/v4 v4.1.2 // indirect

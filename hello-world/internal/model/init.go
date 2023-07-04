@@ -30,6 +30,10 @@ func Init() {
 	if dbclient == nil {
 		panic("connect db wrong")
 	}
+	// err := TableClientCreate()
+	// if err != nil {
+	// 	panic(err)
+	// }
 	tableCheck()
 }
 

@@ -1,0 +1,24 @@
+GET http://127.0.0.1:3000/api/hello
+
+
+### 
+POST http://127.0.0.1:3000/api/client/register HTTP/1.1
+content-type: application/json
+
+{
+
+}
+
+### 
+POST http://127.0.0.1:3000/api/client/change HTTP/1.1
+content-type: application/json
+
+{
+    "name":"yvr",
+    "gender":0,
+    "phone":"1234567",
+    "password":"qwerwtry"
+}
+
+
+
